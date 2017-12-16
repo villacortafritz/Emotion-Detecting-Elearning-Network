@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.amazonaws:aws-android-sdk-kinesis:2.2.18@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-kinesis/2.2.18/a396899754cd8960c91ca7a994997f7c49bc86a7/aws-android-sdk-kinesis-2.2.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-kinesis/2.2.18/578e373999b8fb959f9765a6c2ef78f078e10e93/aws-android-sdk-kinesis-2.2.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

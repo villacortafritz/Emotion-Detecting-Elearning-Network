@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\58934bb6c19c525fb6726c2dd80b5b8d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\51c981d765ba3bacb7d7a5c00bb53a7a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\5a2320cda91fbfbaa0e8c50430d36916\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\656e9b2d4c954885e82a02d539b89eeb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\61c1435ca87a3c988b9d38cec7fe8bb1\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-core\2.2.18\802a5fa1642253476592c2ee55930578e499fe63\aws-android-sdk-core-2.2.18.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="802a5fa1642253476592c2ee55930578e499fe63">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.amazonaws\aws-android-sdk-kinesis\2.2.18\a396899754cd8960c91ca7a994997f7c49bc86a7\aws-android-sdk-kinesis-2.2.18.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a396899754cd8960c91ca7a994997f7c49bc86a7">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\f23a0c4893146046c941241a2aee8aab\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\c0b998ee3c4cf9dabee2eaa58bfcdd87\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\598dd1d8215b7cc11aebb0fec9c20677\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a63e1d1967b51cae83d945bf2e93142a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\affdexsdk-3.2.aar\536dbe2d637eeb1bdafa07e09149302d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3ae94c30ccf2d52e07991f9fba1a00175aaa5321">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\4b3582dd681610ff8f90a9ec78090773\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\bdbca2944293c918c5e1582067524f2a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\0df6f37e8f3d0c33dd09d2b6c2b81d8b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\28ba4af91b4b94e5eab5b5afaf95255d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.squareup.dagger\dagger\1.2.2\e8f912ee19ad84958510883ea191135276b091f8\dagger-1.2.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\1663317c1cdfb3da0aba6d9e29db7c7f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\82978a0d9431cdb6d42841c6530ce1c0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\d2ce974520408cb16362dd1f3850ebbf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\b126302b186a34db54799a37453fa26e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\4d1f9891095ff674f604e2696f14243e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7e7e591f07d5f72b49c45a5c052f14a4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\df495bcfa8bb3486551aeb3cedb4bc80\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\64cbf31feb9eedc94a0cf5c6c7d26396\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fritz Villacorta\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\2c7a590389a37bb4170034051c556cd2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Fritz Villacorta\Downloads\Compressed\EDEN(Merged)\EDEN\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">945518995794-d65pa2gghpr68poh465bkfsgntff29v6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://eden-99c3a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">945518995794</string>
+    <string name="google_api_key" translatable="false">AIzaSyDl2N9_K7nns6Q64LPyDuFX4KGTWUt9VaQ</string>
+    <string name="google_app_id" translatable="false">1:945518995794:android:e075bc3fa8c81b1e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDl2N9_K7nns6Q64LPyDuFX4KGTWUt9VaQ</string>
+    <string name="google_storage_bucket" translatable="false">eden-99c3a.appspot.com</string>
+    <string name="project_id" translatable="false">eden-99c3a</string>
+</resources>

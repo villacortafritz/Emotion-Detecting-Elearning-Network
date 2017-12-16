@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "945518995794",
+    "firebase_url": "https://eden-99c3a.firebaseio.com",
+    "project_id": "eden-99c3a",
+    "storage_bucket": "eden-99c3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945518995794:android:e075bc3fa8c81b1e",
+        "android_client_info": {
+          "package_name": "subatom.eden_beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945518995794-gora5uh33c4velfeao92f3epg7r73npl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "subatom.eden_beta",
+            "certificate_hash": "2a28dd662d306240a5c4f028e96acc16f344a242"
+          }
+        },
+        {
+          "client_id": "945518995794-d65pa2gghpr68poh465bkfsgntff29v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl2N9_K7nns6Q64LPyDuFX4KGTWUt9VaQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945518995794-d65pa2gghpr68poh465bkfsgntff29v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

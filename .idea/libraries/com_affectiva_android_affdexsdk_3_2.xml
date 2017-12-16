@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.affectiva.android:affdexsdk-3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/affdexsdk-3.2.aar/536dbe2d637eeb1bdafa07e09149302d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/affdexsdk-3.2.aar/536dbe2d637eeb1bdafa07e09149302d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
