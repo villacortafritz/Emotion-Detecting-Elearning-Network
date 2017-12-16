@@ -1,3 +1,10 @@
-#EDEN
+EDEN ver.2 onwards
 
-i need that 100k BROS
+[beta version deleted, considered obsolete]
+Initial commit for this version.
+
+New maintainers:
+Estamo, Rodel
+Godinez, Ephraime Xezphyr
+Pelias, Patrick
+Villacorta, Fritz
