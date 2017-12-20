@@ -24,6 +24,7 @@ android {
             universalApk true
         }
     }
+    buildToolsVersion '26.0.2'
 }
 
 dependencies {
@@ -34,7 +35,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile files('libs/YouTubeAndroidPlayerApi.jar')
-
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:appcompat-v7:26.+'
