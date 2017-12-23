@@ -1,7 +1,5 @@
 package subatom.eden_beta;
 
-/* OPLAS HELP ME TTTTTTTTTTTT.TTTTTTTTTTTT */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -32,8 +30,6 @@ import java.util.jar.Attributes;
 
 public class Statistics extends Activity {
 
-    /*DatabaseReference mVidRef = FirebaseDatabase.getInstance().getReference("videos");
-    ArrayList<Double> metrics = new ArrayList<>();*/
     double confusion = 0f, attention = 0f, engagement = 0f, positive = 0f, negative = 0f;
 
     private Button btnSend;
@@ -61,12 +57,6 @@ public class Statistics extends Activity {
         len_video = getIntent().getStringExtra("length_video");
 
         attention = Double.parseDouble(len_video);
-
-        //LimitLine upper_limit = new LimitLine(100f,"Maximum");
-
-        /*mVidRef = FirebaseDatabase.getInstance().getReference("videos").child(student_id);*/
-
-
         txtStat = (EditText) findViewById(R.id.editTextStat);
         txtStat.setFocusable(false);
         btnBack = (Button)findViewById(R.id.btnToMain);
@@ -80,17 +70,6 @@ public class Statistics extends Activity {
 
         LineData data = new LineData(dataSets);
         lineChart.setData(data);
-
-        /*String id = mVidRef.push().getKey();
-
-        metrics.add(confusion);
-        metrics.add(attention);
-        metrics.add(engagement);
-        metrics.add(positive);
-        metrics.add(negative);
-        Video vid = new Video(id, linkReplay, metrics, Emotion.joy, Emotion.engagement, Emotion.attention, Emotion.brow_furrow, Emotion.valence);
-        mVidRef.child(id).setValue(vid);*/
-
     }
 
     public class EmotionPoints {
@@ -123,9 +102,6 @@ public class Statistics extends Activity {
                 dum2 = Emotion.getValence(i).getL().toString();
                 dum = Emotion.getValence(i).getR().toString();
                 valence.add(new Entry((float)Double.parseDouble(dum2), Float.parseFloat(dum)));
-
-
-
             }
 
             LineDataSet data1 = new LineDataSet(confuse,"Confuse");
@@ -229,7 +205,6 @@ public class Statistics extends Activity {
             return point;
         }
 
-
         public String updateNotPayingAttention() {
             boolean hasStart = false, hasEnd = false;
             point = "I didn't pay attention between these time frames: \n";
@@ -288,8 +263,6 @@ public class Statistics extends Activity {
 
                     }
                 }
-//                start = 0;
-//                end = 0;
             }
             negative = Double.parseDouble(len_video) - positive;
             if (positive >= negative) {
@@ -300,11 +273,7 @@ public class Statistics extends Activity {
             }
             return point;
         }
-
-
-
     }
-
 
     public class EmailSender implements View.OnClickListener{
         public void onClick(View v){
@@ -312,7 +281,7 @@ public class Statistics extends Activity {
             String s = currentTime.toString();
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setData(Uri.parse("mailto:"));
-            String[] to={"papelias1337@gmail.com"};
+            String[] to={""};
             intent.putExtra(Intent.EXTRA_EMAIL, to);
             intent.putExtra(Intent.EXTRA_SUBJECT, "EDEN Results of "+s);
             intent.putExtra(Intent.EXTRA_TEXT, txtStat.getText().toString());

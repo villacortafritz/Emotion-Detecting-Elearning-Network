@@ -1,22 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\JSP\\Desktop\\Emotion-Detecting-Elearning-Network\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\JSP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\f2ac4e6585ad8ab250822ab8f279920c\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Fritz Villacorta\\Desktop\\EDEN(Merged)\\EDEN\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Fritz Villacorta\\Desktop\\EDEN\\Emotion-Detecting-Elearning-Network\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Fritz Villacorta\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-alpha1.aar\\4d1f9891095ff674f604e2696f14243e\\res\\values-night-v8\\values-night-v8.xml",
