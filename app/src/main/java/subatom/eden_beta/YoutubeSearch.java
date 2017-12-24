@@ -154,7 +154,7 @@ public class YoutubeSearch extends Activity {
                 new HTTPRequest(YoutubeSearch.this).execute(URL);
             }
             else{
-
+                Toast.makeText(YoutubeSearch.this, "Input keyword to make a search.", Toast.LENGTH_LONG).show();
             }
         }
     }
