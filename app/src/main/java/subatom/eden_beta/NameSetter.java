@@ -37,20 +37,10 @@ public class NameSetter extends Activity {
                 int age = Integer.parseInt(spinAge.getSelectedItem().toString());
 
                 rbGender = (RadioButton) findViewById(rgGender.getCheckedRadioButtonId());
-                //Toast.makeText(getApplicationContext(),rbGender.toString(),Toast.LENGTH_SHORT).show();
                 rbAcads = (RadioButton) findViewById(rgAcads.getCheckedRadioButtonId());
                 boolean excel = rbAcads.getText().equals("No") ? false : true;
                 String gender = rbGender.getText().toString();
-
-                /*STUDENT_ID = mStudentRef.push().getKey();*/
                 Student s = new Student(STUDENT_ID, user_name, age, gender, excel);
-                /*mStudentRef.child(STUDENT_ID).setValue(s);*/
-
-                /*mGenderRef.setValue(rbGender.getText());
-                mExcelRef.setValue(rbAcads.getText().equals("No") ? false : true);
-                mNameRef.setValue(user_name);
-                mAgeRef.setValue(spinAge.getSelectedItem());*/
-
                 Intent i = new Intent(NameSetter.this, MainActivity.class);
                 i.putExtra("student_id", STUDENT_ID);
                 i.putExtra("student_name", user_name);

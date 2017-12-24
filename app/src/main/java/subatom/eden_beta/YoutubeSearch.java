@@ -36,9 +36,7 @@ public class YoutubeSearch extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.youtube_activity_main);
         YoutubeData = new ArrayList<VideoObject>();
-
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
-
         etSearch = (EditText) findViewById(R.id.etSearch);
         btnSearch = (Button) findViewById(R.id.btnSearch);
         btnSearch.setOnClickListener(new Search());
@@ -154,6 +152,9 @@ public class YoutubeSearch extends Activity {
 
                 /* Execute HTTP Requeset*/
                 new HTTPRequest(YoutubeSearch.this).execute(URL);
+            }
+            else{
+
             }
         }
     }

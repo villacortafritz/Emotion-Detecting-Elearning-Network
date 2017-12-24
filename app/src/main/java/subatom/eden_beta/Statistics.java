@@ -126,8 +126,6 @@ public class Statistics extends Activity {
             dataSets.add(data3);
             dataSets.add(data4);
             dataSets.add(data5);
-
-
         }
 
         public String allAttention() {
