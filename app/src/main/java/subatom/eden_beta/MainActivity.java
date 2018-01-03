@@ -15,8 +15,11 @@ public class MainActivity extends Activity {
     private Button btnPlay;
     private TextView txtMainName,txtTitle;
 
-    private String name;
+    private String student_name;
     private String student_id;
+    private String student_gender;
+    private int student_age;
+    private boolean student_excel;
 
     private String videoID = null,title;
     private ImageView img, search;
@@ -28,8 +31,12 @@ public class MainActivity extends Activity {
             if(video != null){
                 Intent i = new Intent(MainActivity.this, YoutubePlayer.class);
                 i.putExtra("url", videoID);
-                i.putExtra("student_id", student_id);
-                i.putExtra("student_name", name);
+                i.putExtra("videoTitle", title);
+                //i.putExtra("student_id", student_id);
+                i.putExtra("student_name", student_name);
+                i.putExtra("student_age", student_age);
+                i.putExtra("student_gender", student_gender);
+                i.putExtra("student_excel", student_excel);
                 startActivity(i);
             }else{
                 Toast.makeText(getApplicationContext(),"Search for a video first",Toast.LENGTH_SHORT).show();
@@ -38,7 +45,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    private class Search implements View.OnClickListener {
+    private class VideoSearcher implements View.OnClickListener {
         @Override
         public void onClick(View view) {
             startActivity(new Intent(MainActivity.this, YoutubeSearch.class));
@@ -72,13 +79,17 @@ public class MainActivity extends Activity {
 
         /*Get the user info*/
         try{
-            name = intent.getStringExtra("student_name");
-            student_id = intent.getStringExtra("student_id");
+            student_name = intent.getStringExtra("student_name");
+            //student_id = intent.getStringExtra("student_id");
+            student_gender = intent.getStringExtra("student_gender");
+            student_age = intent.getIntExtra("student_age", 8);
+            student_excel = intent.getBooleanExtra("student_excel", true);
+
             txtMainName.setText("Hello there!");
         } catch (Exception ex) { }
 
         btnPlay.setOnClickListener(new Transferrer());
-        search.setOnClickListener(new Search());
+        search.setOnClickListener(new VideoSearcher());
     }
     protected void onResume() {
         super.onResume();

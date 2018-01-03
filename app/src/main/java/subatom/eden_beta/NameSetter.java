@@ -25,35 +25,37 @@ import java.util.ArrayList;
 
 public class NameSetter extends Activity {
 
-    public class Proceed implements View.OnClickListener{
+    public class FieldChecker implements View.OnClickListener{
         public void onClick(View v) {
 
             int gend = rgGender.getCheckedRadioButtonId();
             int acad = rgAcads.getCheckedRadioButtonId();
 
             if(!(txtName.getText().toString().isEmpty()) && gend != -1 && acad != -1 ){
-                user_name = txtName.getText().toString().trim();
+                String name = txtName.getText().toString().trim();
 
                 int age = Integer.parseInt(spinAge.getSelectedItem().toString());
 
                 rbGender = (RadioButton) findViewById(rgGender.getCheckedRadioButtonId());
-                //Toast.makeText(getApplicationContext(),rbGender.toString(),Toast.LENGTH_SHORT).show();
                 rbAcads = (RadioButton) findViewById(rgAcads.getCheckedRadioButtonId());
                 boolean excel = rbAcads.getText().equals("No") ? false : true;
                 String gender = rbGender.getText().toString();
 
-                /*STUDENT_ID = mStudentRef.push().getKey();*/
-                Student s = new Student(STUDENT_ID, user_name, age, gender, excel);
-                /*mStudentRef.child(STUDENT_ID).setValue(s);*/
+                //STUDENT_ID = mStudentRef.push().getKey();
+                //Student s = new Student(name, age, gender, excel);
+                //mRootRef.child(STUDENT_ID).setValue(s);
 
                 /*mGenderRef.setValue(rbGender.getText());
                 mExcelRef.setValue(rbAcads.getText().equals("No") ? false : true);
-                mNameRef.setValue(user_name);
-                mAgeRef.setValue(spinAge.getSelectedItem());*/
-
+                mNameRef.setValue(name);
+                mAgeRef.setValue(spinAge.getSelectedItem());
+*/
                 Intent i = new Intent(NameSetter.this, MainActivity.class);
-                i.putExtra("student_id", STUDENT_ID);
-                i.putExtra("student_name", user_name);
+                //i.putExtra("student_id", STUDENT_ID);
+                i.putExtra("student_name", name);
+                i.putExtra("student_age", age);
+                i.putExtra("student_gender", gender);
+                i.putExtra("student_excel", excel);
                 startActivity(i);
 
             }
@@ -68,8 +70,6 @@ public class NameSetter extends Activity {
     Spinner spinAge;
 
 
-    public String user_name = null;
-    public String STUDENT_ID;
     EditText txtName;
     Button btnProceed;
     TextView txtNameWarning;
@@ -77,11 +77,8 @@ public class NameSetter extends Activity {
     private ContentResolver cResolver;
     private Window window;
 
-    /*DatabaseReference mStudentRef = FirebaseDatabase.getInstance().getReference("students");*/
-    /*DatabaseReference mNameRef = mRootRef.child("name");
-    DatabaseReference mAgeRef = mRootRef.child("age");
-    DatabaseReference mGenderRef = mRootRef.child("gender");
-    DatabaseReference mExcelRef = mRootRef.child("excel");*/
+    //private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    //public String STUDENT_ID = mRootRef.push().getKey();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +87,7 @@ public class NameSetter extends Activity {
 
         txtName = (EditText)findViewById(R.id.txtName);
         btnProceed = (Button)findViewById(R.id.btnProceed);
-        btnProceed.setOnClickListener(new Proceed());
+        btnProceed.setOnClickListener(new FieldChecker());
 
         rgGender = (RadioGroup)findViewById(R.id.radioGender);
         rgAcads = (RadioGroup)findViewById(R.id.radioLearning);

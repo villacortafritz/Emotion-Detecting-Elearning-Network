@@ -1,7 +1,5 @@
 package subatom.eden_beta;
 
-/* OPLAS HELP ME TTTTTTTTTTTT.TTTTTTTTTTTT */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -31,9 +29,17 @@ import java.util.List;
 import java.util.jar.Attributes;
 
 public class Statistics extends Activity {
+    private String student_name;
+    //private String student_id;
+    private String student_gender;
+    private int student_age;
+    private boolean student_excel;
 
-    /*DatabaseReference mVidRef = FirebaseDatabase.getInstance().getReference("videos");
-    ArrayList<Double> metrics = new ArrayList<>();*/
+    private String video_title;
+
+    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    public String student_id = mRootRef.push().getKey();
+    ArrayList<Double> metrics = new ArrayList<>();
     double confusion = 0f, attention = 0f, engagement = 0f, positive = 0f, negative = 0f;
 
     private Button btnSend;
@@ -57,14 +63,20 @@ public class Statistics extends Activity {
         lineChart = (LineChart) findViewById(R.id.lineChart);
         linkReplay = getIntent().getStringExtra("url");
 
-        String student_id = getIntent().getStringExtra("student_id");
+        //student_id = getIntent().getStringExtra("student_id");
+
+        video_title = getIntent().getStringExtra("title");
+        student_name = getIntent().getStringExtra("student_name");
+        student_gender = getIntent().getStringExtra("student_gender");
+        student_age = getIntent().getIntExtra("student_age", 8);
+        student_excel = getIntent().getBooleanExtra("student_excel", true);
         len_video = getIntent().getStringExtra("length_video");
 
         attention = Double.parseDouble(len_video);
 
         //LimitLine upper_limit = new LimitLine(100f,"Maximum");
 
-        /*mVidRef = FirebaseDatabase.getInstance().getReference("videos").child(student_id);*/
+        //mVidRef = FirebaseDatabase.getInstance().getReference("videos").child(student_id);
 
 
         txtStat = (EditText) findViewById(R.id.editTextStat);
@@ -81,15 +93,16 @@ public class Statistics extends Activity {
         LineData data = new LineData(dataSets);
         lineChart.setData(data);
 
-        /*String id = mVidRef.push().getKey();
 
         metrics.add(confusion);
         metrics.add(attention);
         metrics.add(engagement);
         metrics.add(positive);
         metrics.add(negative);
-        Video vid = new Video(id, linkReplay, metrics, Emotion.joy, Emotion.engagement, Emotion.attention, Emotion.brow_furrow, Emotion.valence);
-        mVidRef.child(id).setValue(vid);*/
+        Student s = new Student(student_name, student_age, student_gender,student_excel, linkReplay, video_title, metrics, Emotion.joy, Emotion.engagement, Emotion.attention, Emotion.brow_furrow, Emotion.valence);
+        //Video vid = new Video(linkReplay, metrics, Emotion.joy, Emotion.engagement, Emotion.attention, Emotion.brow_furrow, Emotion.valence);
+        mRootRef.child(student_id).setValue(s);
+        //mRootRef.child(student_id).setValue(vid);
 
     }
 
@@ -187,7 +200,7 @@ public class Statistics extends Activity {
                     hasEnd = false;
                     //point += (" " + Emotion.brow_furrow.get(start).getL() + " and " + Emotion.brow_furrow.get(end).getL() + "\n");
                     point += ("" + Emotion.getEngagement(start).getL() + " and " + Emotion.getEngagement(end).getL() + "\n");
-                    //engagement += (Emotion.getEngagement(end).getL() - Emotion.getEngagement(start).getL());
+                    engagement += (Emotion.getEngagement(end).getL() - Emotion.getEngagement(start).getL());
                     start = 0;
                     end = 0;
 
@@ -218,7 +231,7 @@ public class Statistics extends Activity {
                     hasEnd = false;
                     //point += (" " + Emotion.brow_furrow.get(start).getL() + " and " + Emotion.brow_furrow.get(end).getL() + "\n");
                     point += ("" + Emotion.getBrowFurrow(start).getL() + " and " + Emotion.getBrowFurrow(end).getL() + "\n");
-                    //confusion += (Emotion.getBrowFurrow(end).getL() - Emotion.getBrowFurrow(start).getL());
+                    confusion += (Emotion.getBrowFurrow(end).getL() - Emotion.getBrowFurrow(start).getL());
                     start = 0;
                     end = 0;
 
@@ -247,7 +260,7 @@ public class Statistics extends Activity {
                         hasStart = false;
                         hasEnd = false;
                         point += (" " + Emotion.attention.get(start).getL() + " and " + Emotion.attention.get(end).getL() + "\n");
-                        //attention = attention - (Emotion.getAttention(end).getL() - Emotion.getAttention(start).getL());
+                        attention = attention - (Emotion.getAttention(end).getL() - Emotion.getAttention(start).getL());
                         start = 0;
                         end = 0;
 
@@ -281,7 +294,7 @@ public class Statistics extends Activity {
                     if (hasStart && hasEnd) {
                         hasStart = false;
                         hasEnd = false;
-                        //point += (" " + Emotion.attention.get(start).getL() + " and " + Emotion.attention.get(end).getL() + "\n");
+                        point += (" " + Emotion.attention.get(start).getL() + " and " + Emotion.attention.get(end).getL() + "\n");
                         positive += (Emotion.getValence(end).getL() - Emotion.getValence(start).getL());
                         start = 0;
                         end = 0;

@@ -29,7 +29,9 @@ import java.util.List;
 public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener, Detector.ImageListener, CameraDetector.CameraEventListener {
 
     public static final String API_KEY = "AIzaSyAhSHZi4V8YvFqLWNJWsAkICj4l8Wkug_k";
-    private String VIDEO_ID, student_name, student_id;
+    private String VIDEO_ID, video_title, student_name, student_id, student_gender;
+    private int student_age;
+    private boolean student_excel;
     private boolean isPlaying = false;
 
         private final static int CAMERA_PERMISSIONS_REQUEST_CODE = 0;
@@ -43,8 +45,11 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
         //this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
         VIDEO_ID = getIntent().getStringExtra("url");
-        student_id = getIntent().getStringExtra("student_id");
+        video_title = getIntent().getStringExtra("title");
         student_name = getIntent().getStringExtra("student_name");
+        student_gender = getIntent().getStringExtra("student_gender");
+        student_age = getIntent().getIntExtra("student_age", 8);
+        student_excel = getIntent().getBooleanExtra("student_excel", true);
         YouTubePlayerView youTubePlayerView = (YouTubePlayerView)findViewById(R.id.youtube_player);
         youTubePlayerView.initialize(API_KEY, this);
 
@@ -166,9 +171,13 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
             Intent i = new Intent(YoutubePlayer.this, Statistics.class);
             String len = Double.toString(StopWatch.getTime());
             i.putExtra("url", VIDEO_ID);
+            i.putExtra("video_title", video_title);
             i.putExtra("student_id", student_id);
             i.putExtra("student_name", student_name);
             i.putExtra("length_video", len);
+            i.putExtra("student_age", student_age);
+            i.putExtra("student_gender", student_gender);
+            i.putExtra("student_excel", student_excel);
             startActivity(i);
 
             //Toast.makeText(YoutubePlayer.this, Emotion.getBrowFurrow(0) + " ", Toast.LENGTH_SHORT).show();
