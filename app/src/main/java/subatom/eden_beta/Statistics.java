@@ -272,7 +272,7 @@ public class Statistics extends Activity {
             return point;
         }
 
-        //added something VCS test
+        //added something VCS test again
 
         public String getOverallValence() {
             point = "Your overall valence is: \n";
