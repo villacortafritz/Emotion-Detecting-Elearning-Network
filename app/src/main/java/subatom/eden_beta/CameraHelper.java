@@ -1,5 +1,7 @@
 package subatom.eden_beta;
 
+/*IMPORTED*/
+
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;

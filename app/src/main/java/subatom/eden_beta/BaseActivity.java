@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
  * DemoApplication, so that it can keep count of the number of started Activities in the app.
  */
 
+/*SUP NIBBAS I LOVE YALL*/
+
 
 /*IF YOU SEE THIS, I'VE SUCCESFULLY BLABLABLA*/
 class BaseActivity extends AppCompatActivity {
