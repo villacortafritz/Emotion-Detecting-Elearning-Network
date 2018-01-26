@@ -9,18 +9,16 @@ import android.support.v7.app.AppCompatActivity;
 
 /*SUP NIBBAS I LOVE YALL*/
 
+    class BaseActivity extends AppCompatActivity {
+        @Override
+        protected void onStart() {
+            super.onStart();
+            ((DemoApplication)getApplication()).onActivityStarted();
+        }
 
-/*IF YOU SEE THIS, I'VE SUCCESFULLY BLABLABLA*/
-class BaseActivity extends AppCompatActivity {
-    @Override
-    protected void onStart() {
-        super.onStart();
-        ((DemoApplication)getApplication()).onActivityStarted();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        ((DemoApplication)getApplication()).onActivityStopped();
-    }
+        @Override
+        protected void onStop() {
+            super.onStop();
+            ((DemoApplication)getApplication()).onActivityStopped();
+        }
 }
