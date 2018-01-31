@@ -2,10 +2,8 @@ package subatom.eden_beta;
 
 import android.Manifest;
 import android.app.ActivityManager;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.widget.Toast;
@@ -24,6 +22,11 @@ import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 import java.util.List;
+
+import subatom.eden_beta.backend.CameraHelper;
+import subatom.eden_beta.backend.DetectorService;
+import subatom.eden_beta.backend.StopWatch;
+import subatom.eden_beta.model.Emotion;
 
 
 public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener, Detector.ImageListener, CameraDetector.CameraEventListener {

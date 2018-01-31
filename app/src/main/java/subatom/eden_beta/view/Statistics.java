@@ -5,32 +5,25 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.LimitLine;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
-import java.util.jar.Attributes;
+
+import subatom.eden_beta.model.Emotion;
 
 public class Statistics extends Activity {
 
-    double confusion = 0f, attention = 0f, engagement = 0f, positive = 0f, negative = 0f;
+    private double confusion = 0f, attention = 0f, engagement = 0f, positive = 0f, negative = 0f;
 
     private Button btnSend;
     private Button btnBack;
@@ -40,10 +33,10 @@ public class Statistics extends Activity {
     private EmotionPoints e = new EmotionPoints();
 
     private String linkReplay;
-    String len_video;
-    LineChart lineChart;
+    private String len_video;
+    private LineChart lineChart;
 
-    ArrayList<ILineDataSet> dataSets = new ArrayList<>();
+    private ArrayList<ILineDataSet> dataSets = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

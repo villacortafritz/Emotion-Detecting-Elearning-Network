@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
@@ -152,5 +152,4 @@ class SafeCamera {
         if (taken) {
             throw new IllegalStateException("cannot take or interact with camera while it has been taken");
         }
-    }
-}
+  

@@ -23,28 +23,6 @@ public class MainActivity extends Activity {
 
     private VideoObject video;
 
-    public class Transferrer implements View.OnClickListener{ //Pending
-        public void onClick (View v){
-            if(video != null){
-                Intent i = new Intent(MainActivity.this, YoutubePlayer.class);
-                i.putExtra("url", videoID);
-                i.putExtra("student_id", student_id);
-                i.putExtra("student_name", name);
-                startActivity(i);
-            }else{
-                Toast.makeText(getApplicationContext(),"Search for a video first",Toast.LENGTH_SHORT).show();
-            }
-
-        }
-    }
-
-    private class Search implements View.OnClickListener {
-        @Override
-        public void onClick(View view) {
-            startActivity(new Intent(MainActivity.this, YoutubeSearch.class));
-        }
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,5 +60,27 @@ public class MainActivity extends Activity {
     }
     protected void onResume() {
         super.onResume();
+    }
+
+    public class Transferrer implements View.OnClickListener{ //Pending
+        public void onClick (View v){
+            if(video != null){
+                Intent i = new Intent(MainActivity.this, YoutubePlayer.class);
+                i.putExtra("url", videoID);
+                i.putExtra("student_id", student_id);
+                i.putExtra("student_name", name);
+                startActivity(i);
+            }else{
+                Toast.makeText(getApplicationContext(),"Search for a video first",Toast.LENGTH_SHORT).show();
+            }
+
+        }
+    }
+
+    private class Search implements View.OnClickListener {
+        @Override
+        public void onClick(View view) {
+            startActivity(new Intent(MainActivity.this, YoutubeSearch.class));
+        }
     }
 }

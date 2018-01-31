@@ -19,9 +19,11 @@ import android.widget.Toast;
 import com.affectiva.android.affdex.sdk.Frame;
 import com.affectiva.android.affdex.sdk.detector.Face;
 import com.affectiva.android.affdex.sdk.detector.FrameDetector;
-import com.google.android.youtube.player.YouTubePlayer;
 
 import java.util.List;
+
+import subatom.eden_beta.model.Emotion;
+import subatom.eden_beta.model.Pair;
 
 /**
  * Manages a background thread that connects to the front-facing camera and sends preview
