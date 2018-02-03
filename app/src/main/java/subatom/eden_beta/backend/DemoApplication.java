@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.app.Application;
 import android.content.Intent;

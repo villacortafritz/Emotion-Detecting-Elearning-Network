@@ -152,4 +152,5 @@ class SafeCamera {
         if (taken) {
             throw new IllegalStateException("cannot take or interact with camera while it has been taken");
         }
-  
+    }
+}

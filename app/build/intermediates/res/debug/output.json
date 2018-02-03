@@ -1,1 +1,1 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"FULL_SPLIT","splits":[{"filterType":"ABI","value":"armeabi-v7a"}],"versionCode":4},"path":"resources-armeabi-v7aDebug.ap_","properties":{"packageId":"subatom.eden_beta","split":"","minSdkVersion":"21"}}]
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"FULL_SPLIT","splits":[],"versionCode":4},"path":"resources-universalDebug.ap_","properties":{"packageId":"subatom.eden_beta","split":"","minSdkVersion":"21"}}]

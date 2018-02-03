@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.support.v7.app.AppCompatActivity;
 

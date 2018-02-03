@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.model;
 
 import android.graphics.Bitmap;
 

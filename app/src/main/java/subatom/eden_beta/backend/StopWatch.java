@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.content.Context;
 import android.util.Log;

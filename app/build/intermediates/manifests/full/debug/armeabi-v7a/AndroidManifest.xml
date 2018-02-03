@@ -36,10 +36,9 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="subatom.eden_beta.SplashScreen"
+            android:name="subatom.eden_beta.activity.SplashScreen"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,28 +47,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="subatom.eden_beta.MainActivity"
+            android:name="subatom.eden_beta.activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="subatom.eden_beta.Statistics"
+            android:name="subatom.eden_beta.activity.Statistics"
             android:screenOrientation="portrait" />
         <activity
-            android:name="subatom.eden_beta.YoutubePlayer"
+            android:name="subatom.eden_beta.activity.YoutubePlayer"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape" />
         <activity
-            android:name="subatom.eden_beta.NameSetter"
+            android:name="subatom.eden_beta.activity.NameSetter"
             android:screenOrientation="portrait" />
 
         <service
-            android:name="subatom.eden_beta.DetectorService"
+            android:name="subatom.eden_beta.backend.DetectorService"
             android:label="My Service" />
 
-        <activity android:name="subatom.eden_beta.firstinstructions" />
-        <activity android:name="subatom.eden_beta.secondinstructions" />
-        <activity android:name="subatom.eden_beta.thirdinstructions" />
-        <activity android:name="subatom.eden_beta.YoutubeSearch" />
-        <activity android:name="subatom.eden_beta.VideoList" />
+        <activity android:name="subatom.eden_beta.activity.FirstInstructions" />
+        <activity android:name="subatom.eden_beta.activity.SecondInstructions" />
+        <activity android:name="subatom.eden_beta.activity.ThirdInstructions" />
+        <activity android:name="subatom.eden_beta.activity.YoutubeSearch" />
+        <activity android:name="subatom.eden_beta.activity.VideoList" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

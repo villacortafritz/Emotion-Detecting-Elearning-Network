@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.app.Service;
 import android.content.Context;
@@ -23,7 +23,6 @@ import com.affectiva.android.affdex.sdk.detector.FrameDetector;
 import java.util.List;
 
 import subatom.eden_beta.model.Emotion;
-import subatom.eden_beta.model.Pair;
 
 /**
  * Manages a background thread that connects to the front-facing camera and sends preview

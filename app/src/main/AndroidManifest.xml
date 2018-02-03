@@ -20,7 +20,7 @@
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup,android:label">
         <activity
-            android:name=".SplashScreen"
+            android:name=".activity.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,28 +29,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Statistics"
+            android:name=".activity.Statistics"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".YoutubePlayer"
+            android:name=".activity.YoutubePlayer"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape"/>
         <activity
-            android:name=".NameSetter"
+            android:name=".activity.NameSetter"
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".DetectorService"
+            android:name=".backend.DetectorService"
             android:label="My Service" />
 
-        <activity android:name=".firstinstructions" />
-        <activity android:name=".secondinstructions" />
-        <activity android:name=".thirdinstructions" />
-        <activity android:name=".YoutubeSearch" />
-        <activity android:name=".VideoList" />
+        <activity android:name=".activity.FirstInstructions" />
+        <activity android:name=".activity.SecondInstructions" />
+        <activity android:name=".activity.ThirdInstructions" />
+        <activity android:name=".activity.YoutubeSearch" />
+        <activity android:name=".activity.VideoList" />
     </application>
 
 </manifest>

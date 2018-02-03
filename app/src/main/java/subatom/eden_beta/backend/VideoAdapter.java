@@ -1,4 +1,4 @@
-package subatom.eden_beta;
+package subatom.eden_beta.backend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,11 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import subatom.eden_beta.activity.MainActivity;
+import subatom.eden_beta.R;
+import subatom.eden_beta.model.VideoObject;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder>{
 

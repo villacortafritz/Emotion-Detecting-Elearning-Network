@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="subatom.eden_beta.Statistics">
+    tools:context="subatom.eden_beta.activity.Statistics">
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/imageView5"
